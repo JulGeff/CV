@@ -1,0 +1,65 @@
+.technos {
+    animation: fadein 2s;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    text-align: center;
+
+    p {
+        font-size: 0.8rem;
+        padding-bottom: 1rem;
+    }
+
+    svg {
+        height: 3rem;
+        transition: ease 0.5s;
+    }
+
+    td:hover {
+        cursor: default;
+
+        .js {
+            color: #f7e018;
+            
+        }
+
+        .react {
+            color: #61dbfb;
+        }
+
+        .html {
+            color: #dd4b25;
+        }
+
+        .bootstrap {
+            color: #7010ef;
+        }
+
+        .node {
+            color: #539e43;
+        }
+
+        .css {
+            color: #2194f0;
+        }
+
+        .wordpress {
+            color: #047297;
+        }
+
+        .git {
+            color: #f05133;
+        }
+
+        .mysql {
+            color: #016089;
+        }
+    }
+
+    table {
+        margin: auto;
+
+        td {
+            width: 11rem;
+        }
+    }
+}

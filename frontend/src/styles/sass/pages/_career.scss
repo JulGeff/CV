@@ -1,0 +1,31 @@
+.career {
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+
+    &__one {
+        animation: fadein 4s;
+    }
+    &__two {
+        animation: fadein 6s;
+    }
+    &__three {
+        animation: fadein 2s;
+    }
+
+    td {
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .oc {
+        width: 3rem;
+    }
+
+    .esma {
+        width: 7rem;
+    }
+
+    .icam {
+        width: 5rem;
+    }
+}

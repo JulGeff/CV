@@ -1,0 +1,56 @@
+.banner {
+    animation: fadein 2s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 5rem;
+    text-transform: uppercase;
+    letter-spacing: .8rem;
+  
+
+    h2 {
+        font-size: .8rem;
+        margin: 0;
+    }
+
+    &__welcome {
+        display: flex;
+        padding-bottom: 2rem;
+    
+
+        h1 {
+            font-size:1rem;
+            padding-left : 2rem;
+        }
+
+        img {
+            width: 7%;
+            border-radius: 50%;
+        }
+    }
+
+    ul {
+        display: flex;
+
+        li {
+            padding-left: 0.5rem;
+            margin-bottom: 0;
+          
+           
+            white-space: nowrap;
+        }
+    }
+
+    &_links {
+        display: flex;
+        align-items: flex-end;
+        &:focus,
+        &:hover,
+        &:visited,
+        &:link,
+        &:active {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

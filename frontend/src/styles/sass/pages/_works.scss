@@ -1,0 +1,49 @@
+.works {
+    animation: fadein 2s;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+
+    .overlay {
+        position: relative;
+        width: 100%;
+        cursor: pointer;
+        
+
+        img {
+            max-width: 100%;
+            opacity: 0;
+            position: absolute;
+            bottom : -200%;
+         
+           
+            z-index: -1;
+            transition: 0.5s ease;
+            
+        }
+
+        &:hover {
+            img {
+                opacity: 1;
+            }
+        }
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 7rem;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2 {
+                font-size: 1rem;
+            }
+
+            p {
+                font-size: 0.7rem;
+            }
+        }
+    }
+}
