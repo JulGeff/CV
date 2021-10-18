@@ -5,6 +5,9 @@ import Home from "./pages/Home";
 import Career from "./pages/Career";
 import Technos from "./pages/Technos";
 import Works from "./pages/Works";
+import Groupomania from "./pages/Groupomania";
+import Sopekocko from "./pages/Sopekocko";
+import Orinoco from "./pages/Orinoco";
 import Creativity from "./pages/Creativity";
 import React from 'react';
 import {
@@ -39,6 +42,18 @@ function App() {
                   <Route exact path="/works">
                     <Works />
                   </Route>    
+
+                      <Route exact path="/works/groupomania">
+                        <Groupomania />
+                      </Route> 
+
+                      <Route exact path="/works/sopekocko">
+                        <Sopekocko />
+                      </Route>
+
+                      <Route exact path="/works/orinoco">
+                        <Orinoco />
+                      </Route> 
 
                   <Route exact path="/creativite">
                     <Creativity />
