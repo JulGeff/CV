@@ -18,7 +18,8 @@ function Banner() {
                 <img src={portrait} alt='Groupomania' className='banner__welcome__logo' />
                 <h1>Julien Geffriaud <br />
                     Ingenieur<br />
-                    Developpeur front-end</h1>
+                    Developpeur front-end <br />
+                    React.js</h1>
                     </Link>
             </div>  
             <nav>
