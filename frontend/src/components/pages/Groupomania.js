@@ -20,19 +20,21 @@ function Groupomania() {
         <ul className = 'groupomania__list'>
             <li>Technos
                 <ul className = 'groupomania__list__technos'>
-                    <li>Frontend
+                    <li className = 'groupomania__list__technos__category'>Frontend
                         <ul>
                             <li>React.js</li>
                             <li>HTML5</li>
                             <li>CSS3</li>
+                            <li>Axios</li>
                         </ul>
                     </li>
 
-                    <li>Backend
+                    <li className = 'groupomania__list__technos__category'>Backend
                         <ul>
                             <li>Node.js</li>
                             <li>Express.js</li>
-                            <li>MySQL / Sequelize</li>
+                            <li>Sequelize</li>
+                            <li>MySQL</li>
                         </ul>
                     </li>
                 </ul>
